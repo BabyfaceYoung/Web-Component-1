@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    background-color: rgb(247, 254, 255);
+    border: none;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.learn-more {
+    display: flex;
+    background-image: linear-gradient(to right, #4CAF50, #024d04);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 170px;
+}
+
+.job-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+.job-description {
+    font-size: 20px;
+    text-align: left;
+}
+
+.list {
+    font-size: 16px;
+    color: green;
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.arrow-btn-right {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration-color: #f1f1f1;
+}
+
+.arrow-btn-left {
+    background-color: #4caf4f8a;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration-color: #f1f1f1;
+}
+
+.description {
+    position: relative;
+    transform: translateY(25%);
+    text-align: left;
+    width: 400px;
+}
+
+.col-1, .col-2, .col-3 {
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(136, 135, 135, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+}
+
+hr {
+    width: 50%;
+    position: relative;
+    right: 25%;
+    background-color: #4CAF50;
+}
